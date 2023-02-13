@@ -5,8 +5,9 @@
   box-sizing: border-box;
 }
 .body {
-    background-color: #141628;
-    color: white;
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
 }
 .header-content {
     margin: 1rem;
@@ -31,7 +32,15 @@ li a {
     color: white;
     text-decoration: none;
 }
-
+.intro {
+    background-color: hsl(217, 28%, 15%);
+}
+.testimonials {
+    background-color: hsl(219, 30%, 18%);
+}
+.sign-up {
+    background-color: hsl(217, 28%, 15%);
+}
 .footer-container {
     margin-top: 10rem;
 }
