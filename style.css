@@ -8,29 +8,53 @@
     margin: 0;
     padding: 0;
 }  
-html, body {
-    height: 100%;
-    font-family:  sans-serif;
-    font-size: 14px;
-}
+:root {
+    --intro-and-email: hsl(217, 28%, 15%);
+    --main: hsl(218, 28%, 13%);
+    --footer: hsl(216, 53%, 9%);
+    --testimonials: hsl(219, 30%, 18%);
+    --neutral-white: hsl(0, 0%, 100%);
+    /*Accent*/
+    --Cyan: hsl(176, 68%, 64%);
+    --Blue: hsl(198, 60%, 50%);
+    --Light-Red: hsl(0, 100%, 63%);
+    --ff-sans: "Open Sans", sans-serif;
+    --ff-raleway: "Raleway", sans-serif;
+    --fw-regular: 400;
+    --fw-bold: 700;
+  }
+
 .body {
-    background-color: hsl(218, 28%, 13%);
+    background-color: var(--main);
     color: hsl(0, 0%, 100%);
     font-size: 14px;
+    line-height: 1.5;
+    height: 100%;
+    font-family:  sans-serif;
+}
+title {
+    display: none;
 }
 .header-content {
-    margin: 1rem;
+     background-color:  var(--intro-and-email);
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: clamp(1.43rem, 6vw, 4.5rem) clamp(1.312rem, 4vw, 4.5rem);
+    font-family: var(--ff-raleway);      
 }
 .nav-bar {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin-left: 17em;
-   margin-top: -7.2rem;
+   margin-left: 41em;
+   margin-top: -4rem;
    margin-bottom: 2rem;
 }
-.logo {
-    margin: 2rem;
+.logo   {
+    padding-top: 2rem;
+    margin-left: 2rem;
 }
 ul {
     list-style-type: none;
@@ -42,12 +66,45 @@ li a {
     text-decoration: none;
 }
 .intro {
-    background-color: hsl(217, 28%, 15%);
+    background-color:  var(--intro-and-email);
     background-image: url("./images/bg-curvy-mobile.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
     padding-bottom: 4rem;
+
+}
+.intro-container {
+    margin: 8rem;
+
+}
+.intro-container h1 {
+    margin-left: 5rem;
+    margin-top: 3.5rem;
+    font-size: 3rem;
+    font-family: var(--ff-raleway);
+    text-align-last: center;
+}
+.intro-container p {
+    font-size: 2rem;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align-last: center;
+}
+.btn {
+    display: inline-block;
+    background: linear-gradient(to right, var(--Cyan), var(--Blue));
+    font-family: var(--ff-raleway);
+    font-weight: var(--fw-bold);
+    -webkit-border-radius: 3.5rem;
+    width: 31rem;
+    height: 7rem;
+    margin-left: 7rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    color:hsl(0, 0%, 100%);
 }
 .info {
     text-align: center;
