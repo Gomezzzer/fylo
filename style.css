@@ -30,6 +30,7 @@
     font-size: 14px;
     line-height: 1.5;
     height: 100%;
+    max-width: 1200px;
     font-family:  sans-serif;
 }
 title {
@@ -42,7 +43,7 @@ title {
     -webkit-box-pack: justify;
     justify-content: space-between;
     padding: clamp(1.43rem, 6vw, 4.5rem) clamp(1.312rem, 4vw, 4.5rem);
-    font-family: var(--ff-raleway);      
+    font-family: var(--ff-raleway);    
 }
 .nav-bar {
    display: flex;
@@ -66,13 +67,13 @@ li a {
     text-decoration: none;
 }
 .intro {
+    height: 59rem;
     background-color:  var(--intro-and-email);
     background-image: url("./images/bg-curvy-mobile.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
-    padding-bottom: 4rem;
-
+    padding-bottom: 1rem;
 }
 .intro-container {
     margin: 8rem;
@@ -108,6 +109,23 @@ li a {
 }
 .info {
     text-align: center;
+    margin-top: 15rem;
+}
+.info-icon {
+    width: 9rem;
+    display: flex;
+    margin-left: 27rem;
+    padding-bottom: 4rem;
+}
+.info h2 {
+    font-size: 2.5rem;
+}
+.info p {
+    font-size: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 3rem;
+    margin-bottom: 11rem;;
 }
 .testimonials {
     background-color: hsl(219, 30%, 18%);
