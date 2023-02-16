@@ -112,24 +112,70 @@ li a {
     margin-top: 15rem;
 }
 .info-icon {
-    width: 9rem;
+    width: 11rem;
     display: flex;
-    margin-left: 27rem;
+    margin-left: 26rem;
     padding-bottom: 4rem;
 }
 .info h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 .info p {
-    font-size: 2rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
+    font-size: 2.4rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
     margin-top: 3rem;
     margin-bottom: 11rem;;
 }
+.stay-productive {
+    width: 49rem;
+    margin-top: 10rem;
+    margin-left: 6rem;
+}
+.stay-productive-section h2 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.stay-productive-section p {
+    font-size: 2.4rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 4rem;
+}
+.see-fylo {
+    color:hsl(176, 68%, 64%);
+    text-decoration:  hsl(176, 68%, 64%) underline; 
+    margin-bottom: 5rem;
+}
+.arrow {
+    width: 3rem;
+    margin-top: 1rem;
+}
 .testimonials {
+    height: 24rem;
     background-color: hsl(219, 30%, 18%);
     text-align: center;
+    margin-top: 0rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-bottom: 4rem;
+    border-radius: 1rem;
+}
+.testimonials p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+.quotes {
+    margin-top: 18rem;
+    margin-left: 10rem;
+}
+.team {
+    width: 5rem;
+    margin-top: 4rem;
+    border-radius: 53%;
 }
 .sign-up {
     background-color: hsl(217, 28%, 15%);
