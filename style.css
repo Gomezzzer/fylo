@@ -134,7 +134,7 @@ li a {
 }
 .stay-productive-section h2 {
     font-size: 3rem;
-    margin-top: 2rem;
+    margin-top: 7rem;
     margin-left: 5rem;
 }
 .stay-productive-section p {
@@ -153,29 +153,33 @@ li a {
     margin-top: 1rem;
 }
 .testimonials {
-    height: 24rem;
+    height: 25rem;
     background-color: hsl(219, 30%, 18%);
     text-align: center;
     margin-top: 0rem;
     margin-right: 10rem;
     margin-left: 10rem;
-    margin-bottom: 4rem; 
+    margin-bottom: 3rem; 
     border-radius: 1rem;
 }
 .testimonials p {
     font-size: 1.5rem;
-    margin-top: 2rem;
-    margin-right: 4rem;
-    margin-left: 4rem;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    text-align-last: left;
 }
 .quotes {
     margin-top: 18rem;
     margin-left: 10rem;
 }
 .team {
-    width: 5rem;
+    width: 4rem;
     margin-top: 4rem;
     border-radius: 53%;
+}
+.testimonials h3 {
+    font-size: 1.5rem;
 }
 .sign-up {
     background-color: hsl(217, 28%, 15%);
