@@ -273,9 +273,27 @@ footer {
     margin-top: 8rem;
     line-height: 6rem;
 }
-.facebook {
-    color:hsl(0, 0%, 100%);
-    
-}
+  .social-links a svg:hover {
+    color: var(--Bright-Blue);
+    border: 1px solid var(--Bright-Blue);
+  }
+  .social-links {
+    text-align: center;
+  }
+  
+  .social-links a:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .social-links svg {
+    margin-bottom: -31rem;
+    height: 3rem;
+    width: 5rem;
+    fill: white;
+  }
+  .social-links a svg:hover * {
+    fill: #61e0da;
+  }
+  
    
 
