@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
 *,
 *::before,
 *::after {
@@ -38,6 +39,7 @@ title {
 }
 .header-content {
      background-color:  var(--intro-and-email);
+     width: 105%;
     -webkit-box-align: center;
     align-items: center;
     -webkit-box-pack: justify;
@@ -49,13 +51,17 @@ title {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin-left: 41em;
+   margin-left: 31em;
    margin-top: -4rem;
    margin-bottom: 2rem;
+}
+.nav-bar ul li {
+    padding: 1rem;
 }
 .logo   {
     padding-top: 2rem;
     margin-left: 2rem;
+    width: 14.5rem;
 }
 ul {
     list-style-type: none;
@@ -67,7 +73,7 @@ li a {
     text-decoration: none;
 }
 .intro {
-    height: 59rem;
+    height: 57rem;
     background-color:  var(--intro-and-email);
     background-image: url("./images/bg-curvy-mobile.svg");
     background-repeat: no-repeat;
@@ -77,14 +83,15 @@ li a {
 }
 .intro-container {
     margin: 8rem;
-
+    margin-top: 7rem;
 }
 .intro-container h1 {
-    margin-left: 5rem;
-    margin-top: 3.5rem;
-    font-size: 3rem;
+    margin-left: -5rem;
+    margin-right: -5rem;
+    margin-top: 4.5rem;
+    font-size: 3.8rem; 
     font-family: var(--ff-raleway);
-    text-align-last: center;
+    text-align: center;
 }
 .intro-container p {
     font-size: 2rem;
@@ -144,9 +151,9 @@ li a {
     margin-right: 4rem;
 }
 .see-fylo {
-     align-items: center;
+    align-items: center;
     padding-bottom: 0.3125rem;
-     font-size: 0.8125rem;
+    font-size: 0.8125rem;
     line-height: 1;
     color: var(--Cyan);
     border-bottom: 1px solid var(--Cyan);
@@ -273,27 +280,42 @@ footer {
     margin-top: 8rem;
     line-height: 6rem;
 }
-  .social-links a svg:hover {
-    color: var(--Bright-Blue);
-    border: 1px solid var(--Bright-Blue);
-  }
-  .social-links {
-    text-align: center;
-  }
-  
-  .social-links a:not(:last-child) {
-    margin-right: 10px;
-  }
-  
-  .social-links svg {
-    margin-bottom: -31rem;
-    height: 3rem;
-    width: 5rem;
-    fill: white;
-  }
-  .social-links a svg:hover * {
-    fill: #61e0da;
-  }
+.social-links a svg:hover {
+color: var(--Cyan);
+border: 1px solid var(--cyan);
+}
+.social-links {
+text-align: center;
+}
+
+.social-links a:not(:last-child) {
+margin-right: 10px;
+}
+
+.social-links svg {
+margin-bottom: -31rem;
+height: 3rem;
+width: 5rem;
+fill: white;
+}
+.social-links a svg:hover * {
+fill: #61e0da;
+}
+.facebook svg,
+.twitter svg,
+.instagram svg  {
+    outline: solid;
+    color: white;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    padding: .8rem;
+    margin-top: 2rem;
+}
+.facebook svg,
+.twitter svg {
+    margin-right: 1rem;
+}
   
    
 
