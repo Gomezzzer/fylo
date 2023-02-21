@@ -222,9 +222,9 @@ li a {
     margin-left: -6.7rem;
 }
 .sign-up {
-    height: 52rem;
-    background-color:  hsl(219, 30%, 18%); 
-    margin-top: 20rem;
+    height: 54rem;
+    background-color: hsl(217, 28%, 15%);
+    margin-top: 9rem;
     margin-right: 4rem;
     margin-left: 4rem;
     margin-bottom: 10rem;
@@ -242,6 +242,22 @@ li a {
     margin-right: 5rem;
     text-align-last: center;
 }
+.sign-up-background {
+   
+    background: linear-gradient(
+        to top,
+        hsl(216, 53%, 9%) 0%,
+        hsl(216, 53%, 9%) 50%,
+        hsl(218, 28%, 13%) 50%,
+        hsl(218, 28%, 13%) 100%
+        );                   
+}
+#email  {
+    font-size: 2rem;
+    border: none;
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+}
 .email {
     display: inline-block;
     background: var(--neutral-white);
@@ -251,7 +267,7 @@ li a {
     width: 47rem;
     height: 7rem;
     margin-left: 3rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
     font-size: 2rem;
     color:hsl(0, 0%, 100%);
 }
@@ -273,6 +289,7 @@ li a {
     padding-top: 2rem;
     margin-left: 6rem;
     margin-top: 2rem;
+    margin-bottom: 1.5rem;
 }
 footer {
     background-color: var(--footer);   
@@ -287,6 +304,21 @@ footer {
     margin-right: 23rem;
     margin-left: 6rem;
     margin-top: 3rem;
+}
+.contact img {
+    width: 2rem;
+    margin-top: 2rem;
+    margin-left: -1rem;
+}
+.contact p {
+    margin-top: -3rem;
+    margin-left: 3rem;
+    margin-right: -13rem;
+}
+.contact h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-left: 1.5rem;
 }
 .footer-info {
      display: inline-block;
@@ -343,7 +375,11 @@ fill: #61e0da;
 }
 .facebook svg,
 .twitter svg {
-    margin-right: 1rem;
+    margin-right: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    
 }
   
    
